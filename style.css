@@ -16,9 +16,9 @@ body {
     background-color: #1F2937;
     flex-direction: column;
     align-items: center;
-    height: 60%;
+    height: 600px;
     gap: 30px;
-    
+    flex-shrink: 0;
 }
 .header {
     width: 70%;
@@ -93,10 +93,132 @@ body {
 .insignup {
     
     display: flex;
-    width: 61%;
+    width: 65%;
     flex-wrap: wrap;
 }
 .section2 {
     display: flex;
-    background-color: aqua;
+    flex-direction: column;
+    height: 405px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+
+.info {
+    margin-top: -50px;
+    
+    font-size: 36px;
+    font-weight: 900;
+}
+.kwadrat {
+    height: 120px;
+    width: 120px;
+    border: 3px solid #3882F6;
+    background-color: white;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.kwadratsekcja {
+    margin-top: 25px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+.kwadrat1 {
+    display: flex;
+    width: 125px;
+    flex-wrap: wrap;
+}
+.kwadrat2 {
+    display: flex;
+    width: 125px;
+    flex-wrap: wrap;
+}
+.kwadrat3 {
+    display: flex;
+    width: 125px;
+    flex-wrap: wrap;
+}
+.kwadrat4 {
+    display: flex;
+    width: 125px;
+    flex-wrap: wrap;
+}
+.opiskwadrat {
+    text-align: center;
+}
+.section3 {
+    display: flex;
+    background-color: #E5E7EB;
+    height: 400px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote {
+    width: 900px;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    margin-left: 90px;
+}
+.podpis {
+    margin-left: 600px;
+    font-weight: 900;
+    font-size: 26px;
+}
+.section4 {
+    display: flex;
+    height: 300px;
+    flex-shrink: 0;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+.callbox {
+    display: flex;
+    background-color: #3882F6;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 7px;
+    align-items: center;
+    flex-shrink: 0;
+}
+.kontener {
+    margin-right: 220px;
+    color: white;
+    
+}
+.signupbutton2 {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 7px;
+    font-size: 16px;
+    border: 2px solid white;;
+    height: 35px;
+    width: 110px;
+    margin-left: auto
+}
+.call {
+    font-weight: 900;
+    font-size: 26px;
+}
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 100px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
 }
